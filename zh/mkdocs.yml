@@ -1,0 +1,18 @@
+site_name: My Docs
+
+# 主题配置
+theme:
+  name: material
+  # 设置站点语言为中文
+  language: zh
+
+nav:
+  - 首页: index.md
+
+# 额外配置
+extra:
+  # 多语言切换配置
+  alternate:
+    - name: English
+      link: ../en/
+      lang: en
